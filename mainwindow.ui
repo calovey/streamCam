@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Play</string>
     </property>
    </widget>
    <widget class="QPushButton" name="streamPause">
@@ -37,7 +37,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Pause</string>
     </property>
    </widget>
    <widget class="QPushButton" name="streamStop">
@@ -50,16 +50,16 @@
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Stop</string>
     </property>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>99</x>
-      <y>120</y>
-      <width>361</width>
-      <height>271</height>
+      <x>89</x>
+      <y>80</y>
+      <width>611</width>
+      <height>431</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout"/>

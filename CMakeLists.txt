@@ -24,9 +24,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #    endif()
 #endif()
 
-find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets  Network  Core  Gui  MultimediaWidgets  Multimedia  REQUIRED)
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets  Network  Core Gui MultimediaWidgets Multimedia  REQUIRED)
-
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets  Network  Core  Gui  REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets  Network  Core Gui REQUIRED)
+find_package(Qt5Multimedia)
+find_package(Qt5MultimediaWidgets)
 
 set(PROJECT_SOURCES
         main.cpp

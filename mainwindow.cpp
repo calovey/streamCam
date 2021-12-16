@@ -15,7 +15,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_streamPlay_clicked()
 {
-
 		ui->verticalLayout->addWidget(&videoWidget);
 		mPlayer.setMedia(QUrl("v4l2:///dev/video0"));
 		mPlayer.setVideoOutput(&videoWidget);
